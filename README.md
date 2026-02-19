@@ -30,11 +30,11 @@ To predict the cost, the model analyzes several key features about an individual
 - Geographic Region
 
 Data Preparation Steps
-Before the neural network can use the data, we prepared it:
+Before the neural network can use the data, I prepared it:
 
 1. Categorical Conversion: Non-numerical details like sex (male/female) and smoker status (yes/no) were converted into simple numerical flags (0 or 1).
 
-2. Region Encoding: The region feature was processed using One-Hot Encoding. This means we created a separate 0/1 column for each possible region (e.g., region_northwest, region_southeast).
+2. Region Encoding: The region feature was processed using One-Hot Encoding. This means I created a separate 0/1 column for each possible region (e.g., region_northwest, region_southeast).
 
 3. Train/Test Split: The entire dataset was split into two parts: 80% for training the model and 20% for testing its performance on data it has never seen before.
 
